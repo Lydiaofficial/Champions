@@ -14,8 +14,8 @@ html, body {
 }
 
 img {
-    width: 5.625rem;
-    height: 5.625rem;
+    width: 5rem;
+    height: 5rem;
     margin: 16px auto;
 }
 
@@ -145,6 +145,7 @@ p {
     flex-grow: 1;
     width: 317px;
     box-sizing: border-box; 
+    cursor: pointer;
 }
 
 .recipient {
