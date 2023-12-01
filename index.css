@@ -1,0 +1,205 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    user-select: none;
+    font-family: 'Josefin Sans', 'Inter', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 5.625rem;
+    height: 5.625rem;
+    margin: 16px auto;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 16px 0;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 16px auto;
+}
+
+p {
+    margin: 0.81rem 0;
+}
+
+#reaction {
+    margin: 0;
+    color: #000;
+}
+
+.recipient, .sender {
+    margin: 0;
+}
+
+#msg-field {
+    width: 100%;
+    border-radius: 0.5rem;
+    background: #3F3F3FB2;
+    border: 0;
+    padding: 12px 1rem;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #C1BEBE;
+    line-height: 1.5;
+    margin-top: 16px;
+    resize: none;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    height: 7.375rem;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#msg-field::-webkit-input-placeholder {
+    top: 0;
+  }  
+  
+
+#to-field, #from-field {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background: #3F3F3FB2;
+    border: 0;
+    text-align: center;
+    color: #C1BEBE;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 9.55325rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    gap: 0.58rem;
+    margin-bottom: 20px;
+}
+
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#pub-btn {
+    border-radius: 0.5rem;
+    background: #FCD34D;
+    border: 0;
+    margin: 16px 0;
+    padding: 16px;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ #endorsement-list {
+    display: flex;
+    flex-direction: column;    
+    list-style-type: none;
+    margin-top: 10px;
+    color: #1B1924;
+    gap: 10px;
+
+}
+
+#endorsement-card {
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px; 
+    flex-grow: 1;
+    width: 317px;
+    box-sizing: border-box; 
+}
+
+.recipient {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+
+}
+
+p {
+    padding-top: 12px;
+    padding-left: 16px;
+    margin: 0;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+#message {
+    padding: 0 16px;
+    margin: 0;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+strong {
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#likeCount {
+    cursor: pointer;
+}
+
+.hint {
+    color: #ded9d9;
+    text-align: center;
+    font-family: inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
